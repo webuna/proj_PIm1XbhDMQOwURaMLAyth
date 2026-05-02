@@ -11,10 +11,10 @@
   --text-light: #57534e;
   --border: #f5e6c8;
   --bg-alt: #fffbeb;
-  --blue-dark: #422006;
-  --blue-primary: #eab308;
-  --blue-light: #fef3c7;
-  --blue-accent: #ca8a04;
+  --yellow-dark: #422006;
+  --yellow-primary: #eab308;
+  --yellow-light: #fef3c7;
+  --yellow-accent: #ca8a04;
 }
 
 html {
@@ -25,33 +25,33 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
-  color: var(--blue-dark);
+  color: var(--yellow-dark);
   line-height: 1.6;
   font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  color: var(--blue-dark);
+  color: var(--yellow-dark);
 }
 
 h1 {
   font-size: 3.5rem;
   line-height: 1.2;
   margin-bottom: 20px;
-  color: var(--blue-dark);
+  color: var(--yellow-dark);
 }
 
 h2 {
   font-size: 2.5rem;
   margin-bottom: 40px;
-  color: var(--blue-dark);
+  color: var(--yellow-dark);
 }
 
 h3 {
   font-size: 1.5rem;
   margin-bottom: 15px;
-  color: var(--blue-dark);
+  color: var(--yellow-dark);
 }
 
 p {
@@ -60,13 +60,13 @@ p {
 }
 
 a {
-  color: var(--blue-primary);
+  color: var(--yellow-primary);
   text-decoration: none;
   transition: var(--transition);
 }
 
 a:hover {
-  color: var(--blue-accent);
+  color: var(--yellow-accent);
 }
 
 /* ========================================
@@ -94,7 +94,7 @@ nav {
   font-family: var(--font-heading);
   font-size: 1.8rem;
   font-weight: 700;
-  color: var(--blue-primary);
+  color: var(--yellow-primary);
   letter-spacing: -0.5px;
 }
 
@@ -109,12 +109,12 @@ nav {
 .nav-links a {
   font-size: 1rem;
   font-weight: 500;
-  color: var(--blue-dark);
+  color: var(--yellow-dark);
   transition: var(--transition);
 }
 
 .nav-links a:hover {
-  color: var(--blue-primary);
+  color: var(--yellow-primary);
 }
 
 .nav-buttons {
@@ -124,8 +124,8 @@ nav {
 
 .btn-signin {
   background: transparent;
-  color: var(--blue-primary);
-  border: 2px solid var(--blue-primary);
+  color: var(--yellow-primary);
+  border: 2px solid var(--yellow-primary);
   padding: calc(10px * var(--density-scale)) calc(25px * var(--density-scale));
   border-radius: var(--radius);
   font-weight: 600;
@@ -134,12 +134,12 @@ nav {
 }
 
 .btn-signin:hover {
-  background: var(--blue-primary);
+  background: var(--yellow-primary);
   color: var(--white);
 }
 
 .btn-start {
-  background: var(--blue-primary);
+  background: var(--yellow-primary);
   color: var(--white);
   border: none;
   padding: calc(12px * var(--density-scale)) calc(30px * var(--density-scale));
@@ -150,7 +150,7 @@ nav {
 }
 
 .btn-start:hover {
-  background: var(--blue-accent);
+  background: var(--yellow-accent);
   transform: translateY(-2px);
   box-shadow: 0 8px 16px rgba(2, 132, 199, 0.3);
 }
@@ -160,7 +160,7 @@ nav {
    ======================================== */
 
 .hero {
-  background: linear-gradient(135deg, var(--blue-primary) 0%, var(--blue-accent) 100%);
+  background: linear-gradient(135deg, var(--yellow-primary) 0%, var(--yellow-accent) 100%);
   color: var(--white);
   padding: calc(120px * var(--density-scale)) 20px;
   text-align: center;
@@ -187,7 +187,7 @@ nav {
 .cta-button {
   display: inline-block;
   background: var(--white);
-  color: var(--blue-primary);
+  color: var(--yellow-primary);
   padding: calc(15px * var(--density-scale)) calc(40px * var(--density-scale));
   border-radius: var(--radius);
   font-size: 1.1rem;
@@ -200,7 +200,7 @@ nav {
 }
 
 .cta-button:hover {
-  background: var(--blue-light);
+  background: var(--yellow-light);
   transform: translateY(-2px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
@@ -213,7 +213,7 @@ nav {
 
 .cta-button-secondary:hover {
   background: var(--white);
-  color: var(--blue-primary);
+  color: var(--yellow-primary);
 }
 
 /* ========================================
@@ -228,7 +228,7 @@ nav {
 
 .features h2 {
   text-align: center;
-  color: var(--blue-dark);
+  color: var(--yellow-dark);
   margin-bottom: calc(60px * var(--density-scale));
 }
 
@@ -248,7 +248,7 @@ nav {
 }
 
 .feature-card:hover {
-  border-color: var(--blue-primary);
+  border-color: var(--yellow-primary);
   transform: translateY(-8px);
   box-shadow: 0 12px 24px rgba(2, 132, 199, 0.15);
 }
@@ -259,7 +259,7 @@ nav {
 }
 
 .feature-card h3 {
-  color: var(--blue-dark);
+  color: var(--yellow-dark);
   margin-bottom: calc(15px * var(--density-scale));
 }
 
@@ -284,7 +284,7 @@ nav {
 
 .how-it-works h2 {
   text-align: center;
-  color: var(--blue-dark);
+  color: var(--yellow-dark);
   margin-bottom: calc(60px * var(--density-scale));
 }
 
@@ -305,7 +305,7 @@ nav {
   justify-content: center;
   width: 60px;
   height: 60px;
-  background: var(--blue-primary);
+  background: var(--yellow-primary);
   color: var(--white);
   border-radius: 50%;
   font-size: 1.8rem;
@@ -314,7 +314,7 @@ nav {
 }
 
 .step h3 {
-  color: var(--blue-dark);
+  color: var(--yellow-dark);
   margin-bottom: calc(15px * var(--density-scale));
 }
 
@@ -334,7 +334,7 @@ nav {
 
 .testimonials h2 {
   text-align: center;
-  color: var(--blue-dark);
+  color: var(--yellow-dark);
   margin-bottom: calc(60px * var(--density-scale));
 }
 
@@ -348,7 +348,7 @@ nav {
   background: var(--white);
   padding: calc(40px * var(--density-scale));
   border-radius: var(--radius);
-  border-left: 4px solid var(--blue-primary);
+  border-left: 4px solid var(--yellow-primary);
   transition: var(--transition);
 }
 
@@ -365,11 +365,11 @@ nav {
 
 .testimonial-author {
   font-weight: 600;
-  color: var(--blue-dark);
+  color: var(--yellow-dark);
 }
 
 .testimonial-role {
-  color: var(--blue-primary);
+  color: var(--yellow-primary);
   font-size: 0.9rem;
 }
 
@@ -389,7 +389,7 @@ nav {
 
 .pricing h2 {
   text-align: center;
-  color: var(--blue-dark);
+  color: var(--yellow-dark);
   margin-bottom: calc(60px * var(--density-scale));
 }
 
@@ -403,7 +403,7 @@ nav {
 
 .toggle-label {
   font-weight: 600;
-  color: var(--blue-dark);
+  color: var(--yellow-dark);
 }
 
 .toggle-switch {
@@ -417,7 +417,7 @@ nav {
 }
 
 .toggle-switch.active {
-  background: var(--blue-primary);
+  background: var(--yellow-primary);
 }
 
 .toggle-switch-knob {
@@ -452,7 +452,7 @@ nav {
 }
 
 .pricing-card.featured {
-  border-color: var(--blue-primary);
+  border-color: var(--yellow-primary);
   transform: scale(1.05);
   box-shadow: 0 12px 24px rgba(2, 132, 199, 0.2);
 }
@@ -462,7 +462,7 @@ nav {
   top: -15px;
   left: 50%;
   transform: translateX(-50%);
-  background: var(--blue-primary);
+  background: var(--yellow-primary);
   color: var(--white);
   padding: calc(6px * var(--density-scale)) calc(15px * var(--density-scale));
   border-radius: var(--radius);
@@ -472,14 +472,14 @@ nav {
 
 .pricing-name {
   font-size: 1.5rem;
-  color: var(--blue-dark);
+  color: var(--yellow-dark);
   margin-bottom: calc(15px * var(--density-scale));
   font-weight: 600;
 }
 
 .pricing-price {
   font-size: 3rem;
-  color: var(--blue-primary);
+  color: var(--yellow-primary);
   font-weight: bold;
   margin-bottom: calc(10px * var(--density-scale));
 }
@@ -509,13 +509,13 @@ nav {
 
 .pricing-features li:before {
   content: "✓ ";
-  color: var(--blue-primary);
+  color: var(--yellow-primary);
   font-weight: bold;
   margin-right: 8px;
 }
 
 .pricing-cta {
-  background: var(--blue-primary);
+  background: var(--yellow-primary);
   color: var(--white);
   padding: calc(15px * var(--density-scale)) calc(40px * var(--density-scale));
   border: none;
@@ -528,12 +528,12 @@ nav {
 }
 
 .pricing-cta:hover {
-  background: var(--blue-accent);
+  background: var(--yellow-accent);
   transform: translateY(-2px);
 }
 
 .pricing-card.featured .pricing-cta {
-  background: var(--blue-accent);
+  background: var(--yellow-accent);
 }
 
 /* ========================================
@@ -548,7 +548,7 @@ nav {
 
 .comparison h3 {
   text-align: center;
-  color: var(--blue-dark);
+  color: var(--yellow-dark);
   margin-bottom: calc(40px * var(--density-scale));
 }
 
@@ -562,7 +562,7 @@ nav {
 }
 
 .comparison-table th {
-  background: var(--blue-primary);
+  background: var(--yellow-primary);
   color: var(--white);
   padding: calc(20px * var(--density-scale));
   text-align: left;
@@ -585,11 +585,11 @@ nav {
 
 .comparison-feature {
   font-weight: 600;
-  color: var(--blue-dark);
+  color: var(--yellow-dark);
 }
 
 .comparison-checkmark {
-  color: var(--blue-primary);
+  color: var(--yellow-primary);
   font-weight: bold;
 }
 
@@ -609,7 +609,7 @@ nav {
 
 .faq h2 {
   text-align: center;
-  color: var(--blue-dark);
+  color: var(--yellow-dark);
   margin-bottom: calc(60px * var(--density-scale));
 }
 
@@ -629,7 +629,7 @@ nav {
   align-items: center;
   transition: var(--transition);
   font-weight: 600;
-  color: var(--blue-dark);
+  color: var(--yellow-dark);
 }
 
 .faq-question:hover {
@@ -637,7 +637,7 @@ nav {
 }
 
 .faq-toggle {
-  color: var(--blue-primary);
+  color: var(--yellow-primary);
   font-size: 1.5rem;
   transition: var(--transition);
 }
@@ -664,7 +664,7 @@ nav {
    ======================================== */
 
 .final-cta {
-  background: linear-gradient(135deg, var(--blue-primary) 0%, var(--blue-accent) 100%);
+  background: linear-gradient(135deg, var(--yellow-primary) 0%, var(--yellow-accent) 100%);
   color: var(--white);
   padding: calc(80px * var(--density-scale)) 20px;
   text-align: center;
@@ -690,7 +690,7 @@ nav {
    ======================================== */
 
 footer {
-  background: var(--blue-dark);
+  background: var(--yellow-dark);
   color: var(--white);
   padding: calc(60px * var(--density-scale)) 20px;
 }
