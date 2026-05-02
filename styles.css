@@ -1,20 +1,20 @@
 /* ========================================
    JOURNALR – Journaling App Landing Page
-   Blue Professional Theme
+   Yellow Professional Theme
    ======================================== */
 
 :root {
   --transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
   --white: #fff;
-  
-  /* Blue-themed color palette */
-  --text-light: #475569;
-  --border: #e2e8f0;
-  --bg-alt: #f0f9ff;
-  --blue-dark: #0f172a;
-  --blue-primary: #0066cc;
-  --blue-light: #dbeafe;
-  --blue-accent: #0284c7;
+
+  /* Yellow-themed color palette */
+  --text-light: #57534e;
+  --border: #f5e6c8;
+  --bg-alt: #fffbeb;
+  --blue-dark: #422006;
+  --blue-primary: #eab308;
+  --blue-light: #fef3c7;
+  --blue-accent: #ca8a04;
 }
 
 html {
@@ -24,7 +24,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
   color: var(--blue-dark);
   line-height: 1.6;
   font-size: 16px;
@@ -378,7 +378,7 @@ nav {
    ======================================== */
 
 .pricing {
-  background: linear-gradient(135deg, var(--bg-alt) 0%, #cffafe 100%);
+  background: linear-gradient(135deg, var(--bg-alt) 0%, #fde68a 100%);
   padding: calc(80px * var(--density-scale)) 20px;
 }
 
@@ -633,7 +633,7 @@ nav {
 }
 
 .faq-question:hover {
-  background: #dbeafe;
+  background: #fef3c7;
 }
 
 .faq-toggle {
